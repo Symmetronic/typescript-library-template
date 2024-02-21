@@ -16,6 +16,6 @@ Template for a TypeScript library.
 - `npm run dev`: Run tests in watch mode for development
 - `npm run build`: Build for production
 - `npm test`: Run tests and collect coverage
-- `npm run tsc`: Check for TypeScript errors
+- `npm run typecheck`: Check for TypeScript errors
 - `npm run lint`: Lint code
 - `npm run format`: Format code
