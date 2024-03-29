@@ -18,7 +18,8 @@
     "format": "prettier --write src/**/*.{cjs,css,html,js,json,jsx,less,md,mjs,scss,ts,tsx}",
     "lint": "eslint --max-warnings=0 src/**/*.{cjs,js,jsx,mjs,ts,tsx}",
     "prepare": "husky",
-    "test": "vitest run --coverage",
+    "test": "vitest run",
+    "test:coverage": "npm test -- --coverage",
     "typecheck": "tsc --noEmit"
   },
   "repository": {
