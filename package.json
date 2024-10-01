@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/Symmetronic/typescript-library-template#readme",
   "devDependencies": {
-    "@types/jest": "^29.5.12",
+    "@types/jest": "^29.5.13",
     "@types/node": "^22.0.2",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
