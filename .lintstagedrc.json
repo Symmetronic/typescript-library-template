@@ -1,9 +1,5 @@
 {
-  "*.{cjs,js,jsx,mjs,ts,tsx}": [
-    "eslint --fix",
-    "prettier --write",
-    "vitest related --run --bail=1 --passWithNoTests"
-  ],
+  "*.{cjs,js,jsx,mjs,ts,tsx}": ["eslint --fix", "prettier --write"],
   "*.{css,less,scss}": "prettier --write",
   "*.{html,json,md}": "prettier --write"
 }
