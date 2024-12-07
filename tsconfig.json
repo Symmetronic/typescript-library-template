@@ -8,5 +8,5 @@
     "resolveJsonModule": true,
     "target": "ES5"
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src", "eslint.config.mjs", "vite.config.ts"]
 }
