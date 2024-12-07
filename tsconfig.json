@@ -11,6 +11,7 @@
   "include": [
     "src",
     "eslint.config.mjs",
+    "lint-staged.config.mjs",
     "prettier.config.mjs",
     "vite.config.ts"
   ]
