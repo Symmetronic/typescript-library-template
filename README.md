@@ -1,6 +1,7 @@
 [![release badge](https://github.com/Symmetronic/typescript-library-template/actions/workflows/release.yml/badge.svg)](https://github.com/Symmetronic/typescript-library-template/actions/workflows/release.yml)
 [![audit badge](https://github.com/Symmetronic/typescript-library-template/actions/workflows/audit.yml/badge.svg)](https://github.com/Symmetronic/typescript-library-template/actions/workflows/audit.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 
 <!-- TODO: Add coverage script and badge -->
 
