@@ -1,4 +1,4 @@
-/// <reference types="vitest" />
+/// <reference types="vitest/config" />
 import { resolve } from "path";
 import { defineConfig } from "vite";
 import pkg from "./package.json";
@@ -15,11 +15,9 @@ export default defineConfig({
     },
     outDir: resolve(__dirname, "dist"),
   },
+  cacheDir: resolve(__dirname, ".cache"),
   root,
   test: {
-    cache: {
-      dir: resolve(__dirname, ".cache"),
-    },
     coverage: {
       reportsDirectory: resolve(__dirname, "coverage"),
     },
