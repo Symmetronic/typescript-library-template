@@ -15,11 +15,9 @@ export default defineConfig({
     },
     outDir: resolve(__dirname, "dist"),
   },
+  cacheDir: resolve(__dirname, ".cache"),
   root,
   test: {
-    cache: {
-      dir: resolve(__dirname, ".cache"),
-    },
     coverage: {
       reportsDirectory: resolve(__dirname, "coverage"),
     },
