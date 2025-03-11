@@ -6,6 +6,7 @@ export default tseslint.config(
   tseslint.configs.recommendedTypeChecked,
   tseslint.configs.stylisticTypeChecked,
   {
+    ignores: [".cache", "coverage", "dist", "node_modules"],
     languageOptions: {
       parserOptions: {
         projectService: true,
