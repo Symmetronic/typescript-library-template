@@ -8,11 +8,11 @@
     "resolveJsonModule": true,
     "target": "ES5"
   },
+  "exclude": ["eslint.config.mjs"],
   "include": [
-    "src",
-    "eslint.config.mjs",
     "lint-staged.config.mjs",
     "prettier.config.mjs",
+    "src",
     "vite.config.ts"
   ]
 }
