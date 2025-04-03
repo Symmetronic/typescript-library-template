@@ -9,7 +9,15 @@ export default tseslint.config(
   tseslint.configs.recommendedTypeChecked,
   tseslint.configs.stylisticTypeChecked,
   {
-    ignores: [".cache", "coverage", "dist", "node_modules"],
+    ignores: [
+      ".cache",
+      "coverage",
+      "dist",
+      "eslint.config.mjs",
+      "node_modules",
+      "prettier.config.mjs",
+      "vite.config.ts",
+    ],
     languageOptions: {
       parserOptions: {
         projectService: true,

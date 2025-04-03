@@ -1,18 +1,17 @@
 {
-  "extends": "@tsconfig/strictest/tsconfig.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "lib": ["DOM", "ESNext"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "noEmit": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "resolveJsonModule": true,
     "target": "ES5"
   },
-  "exclude": ["eslint.config.mjs"],
-  "include": [
-    "lint-staged.config.mjs",
-    "prettier.config.mjs",
-    "src",
-    "vite.config.ts"
-  ]
+  "exclude": ["node_modules"],
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "include": ["src"]
 }
