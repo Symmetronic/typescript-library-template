@@ -1,6 +1,7 @@
 {
   "editor.formatOnSave": true,
   "git.autofetch": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
