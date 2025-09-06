@@ -15,7 +15,8 @@
   "scripts": {
     "build": "tsc -b && vite build",
     "dev": "vitest",
-    "format": "prettier --write src/**/*.{cjs,css,html,js,json,jsx,less,md,mjs,scss,ts,tsx}",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "lint": "eslint --max-warnings=0 .",
     "prepare": "husky",
     "test": "vitest run",

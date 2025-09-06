@@ -20,3 +20,4 @@ Template for a TypeScript library.
 - `npm run test:coverage`: Run tests once and collect coverage
 - `npm run lint`: Lint code
 - `npm run format`: Format code
+- `npm run format:check`: Check code format
