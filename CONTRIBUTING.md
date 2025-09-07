@@ -2,15 +2,6 @@
 
 Thanks for considering contributing to this library. This document explains how to report issues, propose changes and get your contribution merged quickly.
 
-## Table of contents
-
-- How to file a good issue
-- How to propose a change (PR)
-- Development setup
-- Tests and quality checks
-- Coding style and commit messages
-- Review & merge process
-
 ## How to file a good issue
 
 When opening an issue, please include:
