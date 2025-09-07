@@ -26,7 +26,7 @@ Use labels and templates if provided by the repository.
 
 ## How to propose a change (Pull Request)
 
-1. Fork the repository and create a topic branch from the branch you want to target (usually `main` or the branch named in the contribution guidelines).
+1. Fork the repository and create a topic branch from `main`.
 2. Run the tests and linters locally (see the Development setup section).
 3. Make small, focused commits with clear messages. Prefer one logical change per PR.
 4. Push your branch and open a pull request describing the change, why it’s needed, and any relevant details.
