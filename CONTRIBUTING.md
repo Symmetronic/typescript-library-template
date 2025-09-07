@@ -66,7 +66,7 @@ Write concise commit titles and, when needed, a body describing the reasoning.
 
 ## Security issues
 
-For security-sensitive bugs, please contact the maintainers privately if the repository provides a security policy. If not, open an issue marked `security` and maintainers will advise on next steps.
+For security-sensitive bugs, follow the guidelines in [`SECURITY.md`](SECURITY.md).
 
 ## Thank you
 
